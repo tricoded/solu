@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "743517527640",
+    "project_id": "sfauthone-eecdb",
+    "storage_bucket": "sfauthone-eecdb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743517527640:android:5e729c10bbeb79ffb4f42d",
+        "android_client_info": {
+          "package_name": "com.example.food_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGFuYykcXoDJdJjWH4aZGMfA7pcr6Ojpo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
