@@ -112,6 +112,7 @@ class _NearbyPageState extends State<NearbyPage> {
           itemBuilder: (context, index) {
             return GestureDetector(
               onTap: () {
+                // ignore: avoid_print
                 print("Tapped on ${pictureThumbnails[index]}");
               },
               child: Stack(

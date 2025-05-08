@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:food_app/components/navbar/sfood_navigation_bar.dart';
+import 'package:food_app/pages/secondary/full_recipe_page.dart';
 import 'package:food_app/pages/secondary/restaurant_page.dart';
 import 'package:get/get.dart';
+// import 'package:food_app/components/navbar/sfood_navigation_bar.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -22,7 +23,8 @@ class MainApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.white,
       ),
       debugShowCheckedModeBanner: false,
-      home: SfoodNavigationBar(),
+      home: FullRecipePage(),
+      // SfoodNavigationBar(),
     );
   }
 }
